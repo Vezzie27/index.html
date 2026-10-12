@@ -1,6 +1,6 @@
 const CACHE_NAME = 'vermoegen-rechner-v1';
 const ASSETS = [
-  './vermoegen-rechner.html',
+  './index.html',
   './manifest.json',
   './icon-192.png',
   './icon-512.png',
@@ -48,7 +48,7 @@ self.addEventListener('fetch', (event) => {
       }).catch(() => {
         // Offline Fallback: Wenn HTML angefragt wird, die Hauptseite liefern
         if (event.request.mode === 'navigate') {
-          return caches.match('./vermoegen-rechner.html');
+          return caches.match('./index.html');
         }
       });
     })
