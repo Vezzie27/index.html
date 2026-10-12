@@ -1,0 +1,26 @@
+{
+  "name": "Vermögensrechner – Finanzielle Freiheit",
+  "short_name": "Vermögen",
+  "description": "Berechne, wann du dein Vermögensziel erreichst – mit realistischen und optimistischen Szenarien.",
+  "start_url": "./vermoegen-rechner.html",
+  "display": "standalone",
+  "background_color": "#0f1419",
+  "theme_color": "#1e40af",
+  "orientation": "portrait-primary",
+  "lang": "de",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "utilities"]
+}
